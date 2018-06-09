@@ -1,5 +1,4 @@
 module.exports = {
-  mongoURI:
-    "mongodb://roboblox:roboblox69@ds247170.mlab.com:47170/mern-comment-box",
+  mongoURI: "mongodb://roboblox:marDUKE69@ds121483.mlab.com:21483/devcon",
   secretOrKey: "secret"
 };
