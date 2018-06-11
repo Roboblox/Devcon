@@ -8,12 +8,9 @@ class Login extends Component {
       password: "",
       errors: {}
     };
+
     this.onChange = this.onChange.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
-  }
-
-  onChange(e) {
-    this.setState({ [e.target.name]: e.target.value });
   }
 
   onSubmit(e) {
@@ -25,6 +22,10 @@ class Login extends Component {
     };
 
     console.log(user);
+  }
+
+  onChange(e) {
+    this.setState({ [e.target.name]: e.target.value });
   }
 
   render() {
