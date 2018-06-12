@@ -16,8 +16,6 @@ export const registerUser = (userData, history) => dispatch => {
     );
 };
 
-//import { GET_ERRORS, SET_CURRENT_USER } from "./types";
-
 //Login - Get User Token
 export const loginUser = userData => dispatch => {
   axios
